@@ -1,0 +1,6 @@
+converter\handlers\TotalHandlerTest.class
+converter\MarketConverterTest.class
+converter\handlers\OneXTwoHandlerTest.class
+converter\MarketTransformerTest.class
+converter\handlers\BothTeamsScoreHandlerTest.class
+converter\handlers\HandicapHandlerTest.class

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "1x2",
+    "event_id": "EVENT002",
+    "selections": [
+      {"name": "TEAM A", "odds": 1.1},
+      {"name": "draw", "odds": 15.0},
+      {"name": "team b", "odds": 50.0}
+    ]
+  },
+  {
+    "name": "Total",
+    "event_id": "EVENT002",
+    "selections": [
+      {"name": "OVER 0.5", "odds": 1.05},
+      {"name": "under 0.5", "odds": 12.0}
+    ]
+  },
+  {
+    "name": "Handicap", 
+    "event_id": "EVENT002",
+    "selections": [
+      {"name": "Team A +2.25", "odds": 1.95},
+      {"name": "Team B -2.25", "odds": 1.85}
+    ]
+  },
+  {
+    "name": "Both Teams to Score",
+    "event_id": "EVENT002", 
+    "selections": [
+      {"name": "YES", "odds": 1.4},
+      {"name": "no", "odds": 2.9}
+    ]
+  }
+]

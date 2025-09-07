@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+Test set: converter.MarketParserTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! -- in converter.MarketParserTest
+converter.MarketParserTest.testParseMissingFields -- Time elapsed: 0.037 s <<< ERROR!
+java.lang.IllegalArgumentException: Market at index 0 (Total) has null or empty event_id
+	at converter.MarketParser.validateSingleMarket(MarketParser.java:84)
+	at converter.MarketParser.validateMarketData(MarketParser.java:68)
+	at converter.MarketParser.parse(MarketParser.java:27)
+	at converter.MarketParserTest.testParseMissingFields(MarketParserTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+converter.MarketParserTest.testParseEmptyArray -- Time elapsed: 0.021 s <<< ERROR!
+java.lang.IllegalArgumentException: No markets found in input data
+	at converter.MarketParser.validateMarketData(MarketParser.java:63)
+	at converter.MarketParser.parse(MarketParser.java:27)
+	at converter.MarketParserTest.testParseEmptyArray(MarketParserTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
